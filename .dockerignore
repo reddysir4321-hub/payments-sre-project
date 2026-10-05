@@ -1,0 +1,11 @@
+.git
+.github
+.env
+.venv
+backups
+tests
+k8s
+monitoring
+scripts
+__pycache__
+*.pyc
