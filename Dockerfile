@@ -1,4 +1,5 @@
 FROM python:3.12-slim
+RUN apt-get update && apt-get upgrade -y
 
 # Shown by /health, so you can see which version is running during a rollout.
 ARG APP_VERSION=1.0
